@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NYC</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to NYC</h1>
+        <p>Your Path to Excellence</p>
+    </header>
+
+    <div class="container">
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <ul>
+                <li>Course 1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo obcaecati assumenda facilis optio. Quod reprehenderit maiores dolor laboriosam similique inventore. Officia quibusdam est libero quia doloribus nam velit, dolorum eveniet.</li>
+                <li>Course 2: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, nemo aliquam? Suscipit, corporis dolores, voluptate explicabo numquam eos illum rem nisi magnam beatae quam optio aperiam. Nulla incidunt ad laboriosam.</li>
+                <li>Course 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, iure! Fugiat tenetur, cumque repellat illo aliquam dignissimos velit incidunt sed eligendi assumenda corrupti? Libero repudiandae debitis vel quia est impedit!</li>
+            </ul>
+        </section>
+
+        <section id="admissions">
+            <h2>Admissions</h2>
+            <p>Join us today and start your journey towards a brighter future.</p>
+            <a href="#" class="btn">Apply Now</a>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla quam sequi natus reprehenderit quisquam eius eveniet impedit quod a amet at similique eos dolor, tempora fugit recusandae consequuntur soluta voluptas laudantium consequatur ut. Inventore sequi perspiciatis ratione velit cupiditate ab nulla nam officiis eligendi eum, assumenda debitis est accusamus dolores explicabo facere neque iusto mollitia odit quaerat nostrum earum? Tempore.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to contact us.</p>
+        
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 NYC</p>
+        </div>
+    </footer>
+</body>
+</html>
